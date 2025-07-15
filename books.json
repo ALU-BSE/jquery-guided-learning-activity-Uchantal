@@ -1,0 +1,5 @@
+[
+  { "title": "JavaScript Basics", "author": "UWIMANA Chantal", "description": "Learn JS fundamentals." },
+  { "title": "jQuery in Action", "author": "Pelin", "description": "Master jQuery for real projects." },
+  { "title": "Web Design", "author": "UWIMANA Chantal", "description": "Principles of good UI/UX design." }
+  ]

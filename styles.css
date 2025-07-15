@@ -1,0 +1,76 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #searchInput {
+      padding: 8px;
+      width: 220px;
+      margin: 20px 10px 20px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    #searchBtn {
+      padding: 8px 16px;
+      background: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.5s;
+    }
+    
+    #searchBtn:hover {
+      background: #01101a;
+    }
+    
+    #results {
+      margin: 20px 0 0 0;
+      max-width: 400px;
+    }
+    
+    .book {
+      background: #fff;
+      margin-bottom: 10px;
+      padding: 12px 16px;
+      border-radius: 6px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+      transition: background 0.5s;
+      cursor: pointer;
+      display: none;
+    }
+    
+    .book:hover {
+      background-color: #84e2e2;
+    }
+    
+    .book .description {
+      margin-top: 8px;
+      color: #444;
+      font-size: 0.97em;
+      display: none;
+    }
+    
+    #loader {
+      border: 6px solid #f3f3f3;
+      border-top: 6px solid #3498db;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+      position: fixed;
+      left: 50%;
+      top: 30%;
+      margin-left: -20px;
+      margin-top: -20px;
+      z-index: 1000;
+      display: none;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
